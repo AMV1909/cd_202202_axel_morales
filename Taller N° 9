@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMtgZIMLNKcMljoKv25Sjc/",
+      "collapsed_sections": [],
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,7 +28,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 124,
+      "execution_count": 222,
       "metadata": {
         "id": "A7zJsy3n7q12"
       },
@@ -47,12 +47,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 424
+          "height": 572
         },
         "id": "j9DCDoHR8hH4",
-        "outputId": "b3317b8f-cdce-474b-8af9-66ad96297fad"
+        "outputId": "1e931eb8-8646-4a28-f56b-2a079a1d76b7"
       },
-      "execution_count": 125,
+      "execution_count": 223,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -101,7 +101,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-d33d041a-2517-41c5-81ba-6539b63a50c2\">\n",
+              "  <div id=\"df-91095499-b7ce-46df-80e3-c1c7858c805e\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -305,7 +305,7 @@
               "</table>\n",
               "<p>891 rows × 12 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-d33d041a-2517-41c5-81ba-6539b63a50c2')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-91095499-b7ce-46df-80e3-c1c7858c805e')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -356,12 +356,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-d33d041a-2517-41c5-81ba-6539b63a50c2 button.colab-df-convert');\n",
+              "          document.querySelector('#df-91095499-b7ce-46df-80e3-c1c7858c805e button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-d33d041a-2517-41c5-81ba-6539b63a50c2');\n",
+              "          const element = document.querySelector('#df-91095499-b7ce-46df-80e3-c1c7858c805e');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -384,7 +384,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 125
+          "execution_count": 223
         }
       ]
     },
@@ -399,9 +399,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "AeZd_f6e9ECY",
-        "outputId": "b5caeacc-856d-4881-fa1c-b41c1a8d84b2"
+        "outputId": "5cb21782-94d8-4e1f-d445-8613a7f00bfa"
       },
-      "execution_count": 126,
+      "execution_count": 224,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -423,7 +423,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 126
+          "execution_count": 224
         }
       ]
     },
@@ -436,12 +436,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 424
+          "height": 537
         },
         "id": "wWpohdMA-9Dk",
-        "outputId": "565e0286-ec2d-4c16-8c49-e459052da7e5"
+        "outputId": "8b5c2d69-2bd4-46b1-c17a-224ba4c274d8"
       },
-      "execution_count": 127,
+      "execution_count": 225,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -490,7 +490,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-6cd5b08e-bfc0-45cf-ad79-2a4405a28d19\">\n",
+              "  <div id=\"df-50a32bf2-9578-44a8-9004-5a3d9725c5bd\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -682,7 +682,7 @@
               "</table>\n",
               "<p>891 rows × 11 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-6cd5b08e-bfc0-45cf-ad79-2a4405a28d19')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-50a32bf2-9578-44a8-9004-5a3d9725c5bd')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -733,12 +733,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-6cd5b08e-bfc0-45cf-ad79-2a4405a28d19 button.colab-df-convert');\n",
+              "          document.querySelector('#df-50a32bf2-9578-44a8-9004-5a3d9725c5bd button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-6cd5b08e-bfc0-45cf-ad79-2a4405a28d19');\n",
+              "          const element = document.querySelector('#df-50a32bf2-9578-44a8-9004-5a3d9725c5bd');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -761,7 +761,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 127
+          "execution_count": 225
         }
       ]
     },
@@ -774,12 +774,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 424
+          "height": 537
         },
         "id": "X4Oik_HW_Dv8",
-        "outputId": "5b698047-36f3-4e43-a36b-0eaeaa120ca5"
+        "outputId": "f4ae15a5-517b-4145-ba5c-bc1c2a297cad"
       },
-      "execution_count": 128,
+      "execution_count": 226,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -828,7 +828,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-4278e06d-66ea-4867-9db9-0b30cddcf7ee\">\n",
+              "  <div id=\"df-6c027336-6d8c-4ab6-bd34-4e98ef1eb83e\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -1020,7 +1020,7 @@
               "</table>\n",
               "<p>712 rows × 11 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-4278e06d-66ea-4867-9db9-0b30cddcf7ee')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-6c027336-6d8c-4ab6-bd34-4e98ef1eb83e')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -1071,12 +1071,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-4278e06d-66ea-4867-9db9-0b30cddcf7ee button.colab-df-convert');\n",
+              "          document.querySelector('#df-6c027336-6d8c-4ab6-bd34-4e98ef1eb83e button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-4278e06d-66ea-4867-9db9-0b30cddcf7ee');\n",
+              "          const element = document.querySelector('#df-6c027336-6d8c-4ab6-bd34-4e98ef1eb83e');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -1099,7 +1099,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 128
+          "execution_count": 226
         }
       ]
     },
@@ -1113,9 +1113,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "ahuuFxf9AR1T",
-        "outputId": "1da4e46b-edef-45b0-d243-b1747db7dd9b"
+        "outputId": "88be05ea-8455-40d4-d732-35dee593216f"
       },
-      "execution_count": 129,
+      "execution_count": 227,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1136,7 +1136,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 129
+          "execution_count": 227
         }
       ]
     },
@@ -1155,9 +1155,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Rd4oUK2OAWNI",
-        "outputId": "fd543e2c-a11c-429d-f2a2-624193216e27"
+        "outputId": "b4d360f4-adaa-423d-c338-7a2933785ca7"
       },
-      "execution_count": 130,
+      "execution_count": 228,
       "outputs": [
         {
           "output_type": "stream",
@@ -1172,7 +1172,7 @@
             "Model:                          Logit   Df Residuals:                      709\n",
             "Method:                           MLE   Df Model:                            2\n",
             "Date:                Sat, 05 Nov 2022   Pseudo R-squ.:                 0.01416\n",
-            "Time:                        13:39:39   Log-Likelihood:                -473.65\n",
+            "Time:                        15:01:13   Log-Likelihood:                -473.65\n",
             "converged:                       True   LL-Null:                       -480.45\n",
             "Covariance Type:            nonrobust   LLR p-value:                  0.001108\n",
             "==============================================================================\n",
@@ -1196,9 +1196,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "D8-ZzbJli5F2",
-        "outputId": "eb8808dd-db1d-48cc-d853-0dfe01e5005f"
+        "outputId": "a93a716a-9a7d-45df-febe-34703446eb0c"
       },
-      "execution_count": 131,
+      "execution_count": 229,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1208,7 +1208,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 131
+          "execution_count": 229
         }
       ]
     },
@@ -1223,7 +1223,7 @@
       "metadata": {
         "id": "V5K4U9BwClRd"
       },
-      "execution_count": 132,
+      "execution_count": 230,
       "outputs": []
     },
     {
@@ -1239,12 +1239,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 979
+          "height": 1000
         },
         "id": "cgcTBCFhldiR",
-        "outputId": "239149b5-94e1-4f0f-ab20-26fa8d46801b"
+        "outputId": "763d0e08-e096-44c5-af92-f0e07abea56b"
       },
-      "execution_count": 133,
+      "execution_count": 231,
       "outputs": [
         {
           "output_type": "stream",
@@ -1337,7 +1337,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-ac1f93bd-93b5-4658-b1a9-dbd600debb21\">\n",
+              "  <div id=\"df-140bd072-89fa-4f17-a1ed-cef9bde8a242\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -1553,7 +1553,7 @@
               "</table>\n",
               "<p>712 rows × 13 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-ac1f93bd-93b5-4658-b1a9-dbd600debb21')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-140bd072-89fa-4f17-a1ed-cef9bde8a242')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -1604,12 +1604,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-ac1f93bd-93b5-4658-b1a9-dbd600debb21 button.colab-df-convert');\n",
+              "          document.querySelector('#df-140bd072-89fa-4f17-a1ed-cef9bde8a242 button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-ac1f93bd-93b5-4658-b1a9-dbd600debb21');\n",
+              "          const element = document.querySelector('#df-140bd072-89fa-4f17-a1ed-cef9bde8a242');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -1632,7 +1632,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 133
+          "execution_count": 231
         }
       ]
     },
@@ -1650,9 +1650,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "yR06-vlKjjqc",
-        "outputId": "f40efda1-00ad-46c7-c2e9-3f37aa5a098e"
+        "outputId": "1e8a5157-7032-45d1-dd4b-aa16c5d848d9"
       },
-      "execution_count": 134,
+      "execution_count": 232,
       "outputs": [
         {
           "output_type": "stream",
@@ -1667,7 +1667,7 @@
             "Model:                          Logit   Df Residuals:                      710\n",
             "Method:                           MLE   Df Model:                            1\n",
             "Date:                Sat, 05 Nov 2022   Pseudo R-squ.:                  0.2199\n",
-            "Time:                        13:39:39   Log-Likelihood:                -374.78\n",
+            "Time:                        15:01:13   Log-Likelihood:                -374.78\n",
             "converged:                       True   LL-Null:                       -480.45\n",
             "Covariance Type:            nonrobust   LLR p-value:                 7.029e-48\n",
             "==============================================================================\n",
@@ -1694,9 +1694,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "NVTBqCbWo27Q",
-        "outputId": "5cee1a4e-9c09-4f20-cddb-da53a942abe6"
+        "outputId": "412fd6af-69c1-4774-9de5-7ff9d9a81249"
       },
-      "execution_count": 135,
+      "execution_count": 233,
       "outputs": [
         {
           "output_type": "stream",
@@ -1711,7 +1711,7 @@
             "Model:                          Logit   Df Residuals:                      709\n",
             "Method:                           MLE   Df Model:                            2\n",
             "Date:                Sat, 05 Nov 2022   Pseudo R-squ.:                  0.3005\n",
-            "Time:                        13:39:39   Log-Likelihood:                -336.07\n",
+            "Time:                        15:01:13   Log-Likelihood:                -336.07\n",
             "converged:                       True   LL-Null:                       -480.45\n",
             "Covariance Type:            nonrobust   LLR p-value:                 1.982e-63\n",
             "==============================================================================\n",
@@ -1739,9 +1739,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "GGga2FsQpaaO",
-        "outputId": "7906ef86-491e-4a5a-fd5e-5377f70ac01c"
+        "outputId": "0931d863-873f-4eff-fe05-4f290dad6775"
       },
-      "execution_count": 136,
+      "execution_count": 234,
       "outputs": [
         {
           "output_type": "stream",
@@ -1756,7 +1756,7 @@
             "Model:                          Logit   Df Residuals:                      706\n",
             "Method:                           MLE   Df Model:                            5\n",
             "Date:                Sat, 05 Nov 2022   Pseudo R-squ.:                  0.3380\n",
-            "Time:                        13:39:40   Log-Likelihood:                -318.05\n",
+            "Time:                        15:01:13   Log-Likelihood:                -318.05\n",
             "converged:                       True   LL-Null:                       -480.45\n",
             "Covariance Type:            nonrobust   LLR p-value:                 4.614e-68\n",
             "==============================================================================\n",
@@ -1794,9 +1794,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "7vtmRtnWAYlO",
-        "outputId": "f98d7477-2aef-4365-85c5-4254bdd30998"
+        "outputId": "b2b1c4b7-1116-48ac-8d75-43bce75d2aac"
       },
-      "execution_count": 137,
+      "execution_count": 235,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1806,7 +1806,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 137
+          "execution_count": 235
         }
       ]
     },
@@ -1820,7 +1820,7 @@
       "metadata": {
         "id": "SJB3u1MDAe2u"
       },
-      "execution_count": 138,
+      "execution_count": 236,
       "outputs": []
     },
     {
@@ -1834,9 +1834,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "j2qlww2EAfzl",
-        "outputId": "d478c6d7-57ef-4ddf-cee0-bd1ded5e6fa5"
+        "outputId": "4ef37e82-eafb-46c8-8ccd-18cb4b4d044e"
       },
-      "execution_count": 139,
+      "execution_count": 237,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1846,7 +1846,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 139
+          "execution_count": 237
         }
       ]
     },
@@ -1862,9 +1862,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "MJY30BnXAg2G",
-        "outputId": "7ea24352-2a9b-4c89-b030-5fd6ca7903c0"
+        "outputId": "d7c5a56c-c8d2-4c9d-e7ca-fe05803240a2"
       },
-      "execution_count": 140,
+      "execution_count": 238,
       "outputs": [
         {
           "output_type": "stream",
@@ -1881,7 +1881,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 140
+          "execution_count": 238
         }
       ]
     },
@@ -1896,7 +1896,7 @@
       "metadata": {
         "id": "WmjpPBinAiT1"
       },
-      "execution_count": 141,
+      "execution_count": 239,
       "outputs": []
     },
     {
@@ -1908,7 +1908,7 @@
       "metadata": {
         "id": "NhsYF3a5AkS9"
       },
-      "execution_count": 142,
+      "execution_count": 240,
       "outputs": []
     },
     {
@@ -1923,16 +1923,16 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "ESQ4mO_PAk8m",
-        "outputId": "56e4d8e3-bafb-45a6-84cc-c58982f9e02f"
+        "outputId": "3d8441ce-e168-48ac-c41e-a55287f8fda1"
       },
-      "execution_count": 143,
+      "execution_count": 241,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
             "exhaustividad del modelo:\n",
-            "0.6451612903225806\n"
+            "0.8035714285714286\n"
           ]
         }
       ]
@@ -1955,7 +1955,7 @@
       "metadata": {
         "id": "kjaE7ZyEAnD1"
       },
-      "execution_count": 144,
+      "execution_count": 242,
       "outputs": []
     },
     {
@@ -1969,9 +1969,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "1PC4r9WnAq1t",
-        "outputId": "c6627f7b-ff01-417c-ac26-986bdfcbadf7"
+        "outputId": "d174556d-1c7f-4575-eb09-8e352f3d2e74"
       },
-      "execution_count": 145,
+      "execution_count": 243,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1981,7 +1981,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 145
+          "execution_count": 243
         }
       ]
     },
@@ -1997,9 +1997,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Dyb8AXewAs4-",
-        "outputId": "d13d0c55-1fb7-4386-df64-8befb9a46ae2"
+        "outputId": "67964d5c-c3a3-41fa-ffec-d0c25de842f0"
       },
-      "execution_count": 146,
+      "execution_count": 244,
       "outputs": [
         {
           "output_type": "stream",
@@ -2016,7 +2016,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 146
+          "execution_count": 244
         }
       ]
     },
@@ -2031,7 +2031,7 @@
       "metadata": {
         "id": "XXSMsNgrAtSm"
       },
-      "execution_count": 147,
+      "execution_count": 245,
       "outputs": []
     },
     {
@@ -2043,7 +2043,7 @@
       "metadata": {
         "id": "1XY3HqDYAuK-"
       },
-      "execution_count": 148,
+      "execution_count": 246,
       "outputs": []
     },
     {
@@ -2058,16 +2058,345 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "B26CSSdZAvYd",
-        "outputId": "4e8cd813-0517-4476-f3b1-3e9bfbe45c8f"
+        "outputId": "8aaa37ab-f451-45c3-e647-06703cb29173"
       },
-      "execution_count": 149,
+      "execution_count": 247,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
             "exhaustividad del modelo:\n",
-            "0.6571428571428571\n"
+            "0.6833333333333333\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = df.iloc[:,[5,6,7]]\n",
+        "y = df.Survived"
+      ],
+      "metadata": {
+        "id": "g9gYPY18TdKD"
+      },
+      "execution_count": 256,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "model = linear_model.LogisticRegression()\n",
+        "model.fit(x,y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "frvazpBOUVKp",
+        "outputId": "2892f525-2595-4677-9154-5fc6606ae2d3"
+      },
+      "execution_count": 257,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "LogisticRegression()"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 257
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "validation_size = 0.20\n",
+        "seed = 7\n",
+        "X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(x, y, test_size=validation_size, random_state=seed)"
+      ],
+      "metadata": {
+        "id": "F2fSupw4GHds"
+      },
+      "execution_count": 258,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name='Logistic Regression'\n",
+        "kfold = model_selection.KFold(n_splits=10, random_state=seed, shuffle=True)\n",
+        "cv_results = model_selection.cross_val_score(model, X_train, Y_train, cv=kfold, scoring='accuracy')\n",
+        "msg = \"%s: %f (%f)\" % (name, cv_results.mean(), cv_results.std())\n",
+        "print(msg)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YyHbxspGM-iy",
+        "outputId": "6c6936f6-3c40-44c5-9f3f-ead4b273d02b"
+      },
+      "execution_count": 259,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Logistic Regression: 0.627444 (0.058413)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.metrics import accuracy_score\n",
+        "\n",
+        "predictions = model.predict(X_validation)\n",
+        "print(accuracy_score(Y_validation, predictions))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "N-33GFhIK99v",
+        "outputId": "3d21cae5-4924-46a7-8d51-453f79efb6ea"
+      },
+      "execution_count": 260,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0.6643356643356644\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.metrics._plot.confusion_matrix import confusion_matrix\n",
+        "\n",
+        "print(confusion_matrix(Y_validation, predictions))"
+      ],
+      "metadata": {
+        "id": "WvgadAuYLVc3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "cfc8d919-d5f1-47a3-f966-c0df7762940a"
+      },
+      "execution_count": 261,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[[86  2]\n",
+            " [46  9]]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.metrics import classification_report\n",
+        "\n",
+        "print(classification_report(Y_validation, predictions))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xh6wdnk5S7Zb",
+        "outputId": "4580753b-6de9-4a29-9120-65c72ba08e5f"
+      },
+      "execution_count": 262,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "              precision    recall  f1-score   support\n",
+            "\n",
+            "           0       0.65      0.98      0.78        88\n",
+            "           1       0.82      0.16      0.27        55\n",
+            "\n",
+            "    accuracy                           0.66       143\n",
+            "   macro avg       0.73      0.57      0.53       143\n",
+            "weighted avg       0.72      0.66      0.59       143\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Luego lo mismo pero agregando sexo\n",
+        "x = df.iloc[:,[5,6,7,11,12]]\n",
+        "y = df.Survived"
+      ],
+      "metadata": {
+        "id": "GJ5Ufno3TM4M"
+      },
+      "execution_count": 267,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "model = linear_model.LogisticRegression()\n",
+        "model.fit(x,y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vEUi3SDAUcno",
+        "outputId": "31475229-4fbc-4a2c-a790-4bb4881ea6dc"
+      },
+      "execution_count": 268,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "LogisticRegression()"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 268
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "validation_size = 0.20\n",
+        "seed = 7\n",
+        "X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(x, y, test_size=validation_size, random_state=seed)"
+      ],
+      "metadata": {
+        "id": "OYGMJ9VuTuWx"
+      },
+      "execution_count": 269,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name='Logistic Regression'\n",
+        "kfold = model_selection.KFold(n_splits=10, random_state=seed, shuffle=True)\n",
+        "cv_results = model_selection.cross_val_score(model, X_train, Y_train, cv=kfold, scoring='accuracy')\n",
+        "msg = \"%s: %f (%f)\" % (name, cv_results.mean(), cv_results.std())\n",
+        "print(msg)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Aln8jXYUTvxr",
+        "outputId": "810e586c-c32e-4710-9943-50a82de49ef6"
+      },
+      "execution_count": 270,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Logistic Regression: 0.778634 (0.046251)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.metrics import accuracy_score\n",
+        "\n",
+        "predictions = model.predict(X_validation)\n",
+        "print(accuracy_score(Y_validation, predictions))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fWwEVuKpTxRZ",
+        "outputId": "d6fe608a-384b-4537-c3f3-b4c85d53c8d6"
+      },
+      "execution_count": 271,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0.7692307692307693\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.metrics._plot.confusion_matrix import confusion_matrix\n",
+        "\n",
+        "print(confusion_matrix(Y_validation, predictions))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uZVRBfctTyWR",
+        "outputId": "d6e55f71-72d7-4538-a419-4694ed0cfdde"
+      },
+      "execution_count": 272,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[[76 12]\n",
+            " [21 34]]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.metrics import classification_report\n",
+        "\n",
+        "print(classification_report(Y_validation, predictions))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XJ9k0C3YT0C5",
+        "outputId": "e34d3faa-4888-44ef-94e3-28d9b7039b3b"
+      },
+      "execution_count": 273,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "              precision    recall  f1-score   support\n",
+            "\n",
+            "           0       0.78      0.86      0.82        88\n",
+            "           1       0.74      0.62      0.67        55\n",
+            "\n",
+            "    accuracy                           0.77       143\n",
+            "   macro avg       0.76      0.74      0.75       143\n",
+            "weighted avg       0.77      0.77      0.76       143\n",
+            "\n"
           ]
         }
       ]
